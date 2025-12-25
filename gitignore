@@ -1,0 +1,54 @@
+# .gitignore - ملفات يجب تجاهلها عند الرفع على GitHub
+
+# نظام التشغيل
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# بيئة التطوير
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+.vscode/
+.idea/
+*.code-workspace
+
+# الملفات المؤقتة
+*.log
+*.tmp
+.cache/
+dist/
+build/
+
+# البيانات الشخصية
+.env
+.env.local
+config.json
+secrets.json
+
+# الملفات المحررة
+*.bak
+*.backup
+*~
+
+# أنظمة إدارة الإصدارات
+.git/
+.hg/
+
+# نتائج الاختبار
+.coverage
+htmlcov/
+__pycache__/
+
+# ملفات النسخ الاحتياطية
+backup/
+old/
+archive/
